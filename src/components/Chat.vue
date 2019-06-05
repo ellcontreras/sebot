@@ -2,7 +2,7 @@
   <div class="chat">
     <div class="has-text-centered has-text-white">
       <img src="https://image.flaticon.com/icons/svg/1587/1587565.svg" class="image is-128x128" alt>
-      <h1 class="title is-1 has-text-centered has-text-white">Hola, soy CBot</h1>
+      <h1 class="title is-1 has-text-centered has-text-white">Hola, soy SeBot</h1>
       <p>Estoy aqui para decirte si tuviste un día bueno o malo!</p>
     </div>
     <div class="chat-content">
