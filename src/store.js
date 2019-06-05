@@ -14,10 +14,6 @@ export default new Vuex.Store({
         text: "Como estuvo tu dia? 😋",
         who: "bot"
       },
-      {
-        text: "Hola, fijate que bien, me hubiera gustado que estuviera mejor",
-        who: "mine"
-      }
     ]
   },
   mutations: {

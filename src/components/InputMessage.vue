@@ -24,6 +24,16 @@ export default {
         who: "mine"
       });
 
+      this.$axios.post("http://localhost:5000", {
+        message: this.message,
+      }).then(res => {
+          console.log(res);
+          this.$store.dispatch("addMessage", {
+              text: res.data,
+              who: "bot"
+          });
+      })
+
       this.message = "";
     }
   }

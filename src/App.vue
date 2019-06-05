@@ -4,20 +4,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  created() {
-    this.$store.subscribe(mutation => {
-      switch (mutation.type) {
-        case "ADD_MESSAGE":
-          console.log("Se ha agregado un message");
-      }
-    });
-  }
-};
-</script>
-
-
 <style>
 body,
 html {
